@@ -1,6 +1,11 @@
-var gulp = require('gulp')
-gulp.task('hello', function ()  {
-    console.log('hello world!');
+var gulp = require('gulp');
+var webserver = require('gulp-webserver');
+
+gulp.task('webserver', function ()  {
+    gulp.src('app')
+    	.pipe(webserver({
+    		livereload: true
+    	}));
 });
 
-gulp.task('default', ['hello']);
+gulp.task('default', ['webserver']);
