@@ -1,0 +1,16 @@
+{
+  "name": "JSBower01",
+  "version": "0.0.0",
+  "homepage": "https://github.com/s-kunitomo/JavaScript",
+  "authors": [
+    "Shoji Kunitomo <kakeru8@gamil.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
